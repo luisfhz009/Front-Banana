@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Banana_Gest</title>
+
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/diseno.css" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/70a4723319.js"></script>
+</head>
+
+<body >
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img style="float:left;width: 13%; padding-right: 10px;" src="img/flor_lis.png">Banana GEST</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fa fa-home fa-1x" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+        </li>
+       
+        <li class="nav-item active">
+            <a class="nav-link" href="#"><i class="fa fa-user" aria-hidden="true"></i>  Profile <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-contao" aria-hidden="true"></i>  contac</a>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <button style="margin-right: 10px;" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">     
+    </form>
+    <form class="form-inline my-2 my-lg-0">
+        
+        <button class="btn btn-outline-success my-2 my-sm-0"style="margin-left: 20px;" type="submit">Log-out</button>
+    </form>
+  </div>
+</nav>
+<!--Final del Navbar-->
+
+
+<div class="container-fluid">
+
+    <div class="row" >    
+        <div class="col-lg-2 nuevosP">
+                <div class="container" align="center">
+                        <strong style="font-size:18pt; color:rgb(255, 255, 255)">Add a New Proyect</strong> 
+                </div>
+                    <br>
+                <div class="container" align="center" style="padding:15px">
+                            <button type="button" class="btn btn-info btn-lg classname" data-toggle="modal" data-target="#exampleModal">+</button>
+                </div>
+        </div>	
+
+        <div class="col-lg-9" id="post"> </div>
+   
+    </div>
+      
+   </div> 
+
+
+
+
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">New Proyect</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+        
+                  <form class="container" id="needs-validation" novalidate>
+                    <div class="row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Proyect Name</label>
+                        <input type="text" class="form-control" id="proyect_name" placeholder="Proyect Name" required maxlength="15"/>
+                      </div>
+
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">Start Date</label>
+                        <input type="date" class="form-control" id="proyect_start_date" placeholder="Start" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid date.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom05" >Final Date</label>
+                        <input type="date" class="form-control" id="proyect_final_date" placeholder="Final" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid final.
+                        </div>
+                      </div>                      
+                    </div>
+                    <div class="row">
+                      <div class="col-md-11 mb-3">
+                        <label for="validationCustom03">Description</label>
+                        <textarea class="form-control" id="proyect_description" placeholder="Description"required maxlength="200"></textarea>                                          
+                      </div>                     
+                    </div>
+
+                    <!-- <button class="btn btn-primary" type="submit">Submit form</button> -->
+                  </form>
+
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal" id="close-post">Close</button>
+                  <button type="button" class="btn btn-primary" id="add-post">Save</button>
+                </div>
+              </div>
+            </div>
+    </div>
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

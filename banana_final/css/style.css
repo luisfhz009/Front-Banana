@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(../img/body/win7.jpg);
+	background-size: cover;
+	font-family: "Calibri", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+body.principal{
+	background: white;
+}
+p{
+	color:white;
+}
+
+h1{
+	color:white;
+}
+
+placeholder{
+	margin-left: 10px;
+}
+
+.inp1{
+
+	background-image: url(../img/contact/user.png);
+	background-size: 20px;	 	
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    padding:0 0 0 30px;
+}
+
+.inp2{
+
+	background-image: url(../img/contact/phone.png);
+	background-size: 15px;	 	
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    padding:0 0 0 30px;
+}
+
+.inp3{
+
+	background-image: url(../img/contact/email.png);
+	background-size: 22px;	 	
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    padding:0 0 0 30px;
+}
+
+.inp4{
+
+	background-image: url(../img/contact/pass.png);
+	background-size: 16px;	 	
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    padding:0 0 0 30px;
+}
+
+.input1{
+	width:90%;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+
+.background{
+	background-color:#0766D1;
+	width:20%;
+	padding: 30px 45px 30px 30px;
+	border-radius: 10px;
+	margin-top: 10%;	
+	-webkit-box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+	-moz-box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+	box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+}
+
+.check{
+	color:white;
+}
+
+/*Edicion de Martin (solo con motivos de localizacion XD)*/
+p.login{
+	font-size: 15;
+	font-size: 1.5rem;    
+    line-height: 1.333333334;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+  -moz-box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+  box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 46px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+ /* margin-left:10%;*/
+}
+
+.btn1 {
+  background: #3498db;
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+  -moz-box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+  box-shadow: 10px 10px 54px -2px rgba(0,0,0,0.62);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 46px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left:10%;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
